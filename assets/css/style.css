@@ -1,21 +1,27 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 /* Override browser defaults */
-*{
+* {
     padding: 0;
-    margin:0;
-    box-sizing:border-box; /* Padding and border incldued in an item's total width and height*/
+    margin: 0;
+    box-sizing: border-box;
+    /* Padding and border incldued in an item's total width and height*/
 }
+
 /* General Style */
 html {
-    min-height: 100%; 
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 body {
     flex-grow: 1;
-    color:black;
-    display:flex;
+    color: black;
+    display: flex;
     flex-direction: column;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 
@@ -24,6 +30,7 @@ body {
 header {
     background-color: lightcoral;
 }
+
 /* Main content */
 main {
     background-color: lightblue;
@@ -33,6 +40,5 @@ main {
 /* Footer */
 footer {
     background-color: lightgoldenrodyellow;
-   
-}
 
+}
