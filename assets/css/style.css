@@ -1,0 +1,21 @@
+/*Override browser defaults*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box; /* Padding and border incldued in an item's total width and height*/
+}
+
+/*Header */
+header {
+    background-color: lightcoral;
+}
+/* Main content */
+main {
+    background-color: lightblue;
+}
+
+/*Footer */
+footer {
+    background-color: lightgoldenrodyellow;
+}
+
