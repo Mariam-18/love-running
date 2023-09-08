@@ -1,9 +1,24 @@
-/*Override browser defaults*/
+/* Override browser defaults */
 *{
     padding: 0;
     margin:0;
     box-sizing:border-box; /* Padding and border incldued in an item's total width and height*/
 }
+/* General Style */
+html {
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex-grow: 1;
+    color:black;
+    display:flex;
+    flex-direction: column;
+}
+
+
 
 /*Header */
 header {
@@ -12,10 +27,12 @@ header {
 /* Main content */
 main {
     background-color: lightblue;
+    flex: 1 0 auto;
 }
 
-/*Footer */
+/* Footer */
 footer {
     background-color: lightgoldenrodyellow;
+   
 }
 
